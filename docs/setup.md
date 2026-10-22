@@ -53,7 +53,7 @@ The tunnel URL changes on every restart, so treat this as a trial run rather tha
 
 ## Configure the stack, then connect a model
 
-Once the stack is up, run `kortix self-host configure`. It is an interactive prompt for the sandbox provider key and, optionally, a managed-git token. Daytona is the default sandbox provider, with Platinum and E2B also supported ([self-hosting docs](https://kortix.com/docs/host)).
+Once the stack is up, run `kortix self-host configure`. It is an interactive prompt for the sandbox provider key and, optionally, a managed-git token. Platinum is the default sandbox provider, with Daytona available as a legacy fallback ([self-hosting docs](https://kortix.com/docs/host)).
 
 Then sign up in the dashboard and connect your model key in the model picker. Self-hosted instances use your own key by default: the setup prompt asks for the sandbox provider key, not a model key, so models stay yours. GitHub connects afterward, in the dashboard under Settings → Git ([self-hosting docs](https://kortix.com/docs/host)).
 
